@@ -2,4 +2,7 @@
 body {
   background-color: purple; }
 
+.lnav ul li {
+  width: 50%; }
+
 /*# sourceMappingURL=app.css.map */

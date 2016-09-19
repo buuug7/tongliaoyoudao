@@ -7,8 +7,8 @@ $cfg_cookie_encode = 'HWuX3DUBmVcpWRmKLh1gAyd7rWHM';
 $cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';
-$cfg_webname = 'e14机械网站模板 - 织梦营销型网站模板 dedecms机械营销型网站源码';
-$cfg_adminemail = 'admin@dedecms.com';
+$cfg_webname = '通辽市有道会计服务有限公司';
+$cfg_adminemail = 'tlydkj@126.com';
 $cfg_html_editor = 'ckeditor';
 $cfg_arcdir = '/';
 $cfg_medias_dir = '/uploads';
@@ -28,9 +28,9 @@ $cfg_fck_xhtml = 'N';
 $cfg_df_style = 'rok5';
 $cfg_multi_site = 'N';
 $cfg_dede_log = 'N';
-$cfg_powerby = 'Copyright &copy; FK模板中心 www.fkmoban.com 版权所有<br />
-地址：福建省南平市顺昌货场路 <br />
-电话：13900000000 邮箱：233079908@qq.com   技术支持:<a href="http://www.fkmoban.com" target="_blank">FK模板中心 </a>';
+$cfg_powerby = 'Copyright &copy; 通辽市有道会计服务有限公司 www.tlydkj.com 版权所有<br />
+地址：通辽市科尔沁区美域华府2号楼119号 <br />
+电话：13948158910 邮箱：tlydkj@126.com   技术支持:<a href="http://www.fkmoban.com" target="_blank">FK模板中心 </a>';
 $cfg_arcsptitle = 'N';
 $cfg_arcautosp = 'N';
 $cfg_arcautosp_size = 5;
@@ -105,7 +105,7 @@ $cfg_rewrite = 'N';
 $cfg_delete = 'Y';
 $cfg_keywords = '';
 $cfg_description = '';
-$cfg_beian = '闽ICP备12028954号';
+$cfg_beian = '';
 $cfg_need_typeid2 = 'Y';
 $cfg_cache_type = 'id';
 $cfg_max_face = 50;
@@ -156,14 +156,14 @@ $cfg_memcache_mc_oth = '';
 $cfg_cross_sectypeid = 'N';
 $cfg_digg_update = 0;
 $cfg_feedback_guest = 'N';
-$cfg_tel = '400-000-0000';
+$cfg_tel = '13948158910';
 $cfg_dwebname = 'FK模板中心';
-$cfg_biaoyu = '专注节能15年 打造中国最节能的空压机';
-$cfg_telby = '您只需一个电话我们将提供最合适的产品，让您花最少的钱，达到最好的效果';
+$cfg_biaoyu = '专业，规范，高效';
+$cfg_telby = '专业，规范，高效';
 $cfg_lianxi = '<p> <span style="font-size: 12px;">全国统一服务热线：</span></p>     
 <p style="font-size: 20px; color: #546a85;"> 400-0000-000</p>     
 <p> <span>固话：</span>0599-1234567</p>     
 <p> <span>邮箱：</span>233079908@qq.com </p>     
 <p><span>地址：</span>福建省南平市顺昌货场路</p>   ';
-$cfg_qq = '233079908';
+$cfg_qq = '';
 ?>

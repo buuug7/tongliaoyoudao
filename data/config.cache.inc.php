@@ -158,7 +158,7 @@ $cfg_digg_update = 0;
 $cfg_feedback_guest = 'N';
 $cfg_tel = '13948158910';
 $cfg_dwebname = 'FK模板中心';
-$cfg_biaoyu = '专业，规范，高效';
+$cfg_biaoyu = '专业，规范，高效23';
 $cfg_telby = '专业，规范，高效';
 $cfg_lianxi = '<p> <span style="font-size: 12px;">全国统一服务热线：</span></p>     
 <p style="font-size: 20px; color: #546a85;"> 13948158910</p>     

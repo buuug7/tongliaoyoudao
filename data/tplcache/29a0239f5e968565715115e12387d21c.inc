@@ -1,0 +1,1 @@
+<a class="titA" href="[field:typeurl/]"> [field:typename/]</a>

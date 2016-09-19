@@ -1,0 +1,1 @@
+<span class="cur" onclick="window.open('[field:typeurl/]')"> [field:typename/]</span>

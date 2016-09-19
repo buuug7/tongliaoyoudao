@@ -1,0 +1,1 @@
+<li><a class='pic' href="javascript:void(0)"><img src="[field:litpic/]" /> </a></li>

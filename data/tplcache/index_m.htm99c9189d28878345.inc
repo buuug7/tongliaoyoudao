@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("global","",497,523);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",567,597);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",634,661);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",1040,1062);
+$z[3][4]['name']="cfg_tel";
+$z[4]=Array("channel","\r\n    <li><a href='list.php?tid=[field:id/]'>[field:typename/]</a></li>\r\n    ",1289,1414);
+$z[4][4]['type']="top";
+$z[4][4]['row']="8";
+$z[5]=Array("arclist","\r\n        <li><a class='pic' href=\"javascript:void(0)\"><img src=\"[field:litpic/]\" /> </a></li>\r\n      ",1619,1784);
+$z[5][4]['row']="3";
+$z[5][4]['titlelen']="36";
+$z[5][4]['typeid']="46";
+$z[6]=Array("sql","[field:content function=cn_substr(Html2Text(@me),500)/]",2190,2317);
+$z[6][4]['sql']="select content from dede_arctype where id=25";
+$z[7]=Array("type","<a href=\"list.php?tid=[field:id/]\">了解更多 >> </a>",2393,2483);
+$z[7][4]['typeid']="25";
+$z[8]=Array("arclist","\r\n      <li>\r\n      	<a href=\"view.php?aid=[field:id/]\"><div class=\"lzj\"><img src=\"[field:litpic/]\"  /></div>[field:title/]</a>\r\n      </li>\r\n     ",2895,3104);
+$z[8][4]['row']="6";
+$z[8][4]['titlelen']="16";
+$z[8][4]['typeid']="1";
+$z[9]=Array("type","<a href=\"list.php?tid=[field:id/]\">了解更多 >> </a>",3217,3306);
+$z[9][4]['typeid']="1";
+$z[10]=Array("arclist","\r\n      <li>\r\n      	<a href=\"view.php?aid=[field:id/]\"><div class=\"lzj\"><img src=\"[field:litpic/]\"  /></div>[field:title/]</a>\r\n      </li>\r\n     ",3716,3926);
+$z[10][4]['row']="6";
+$z[10][4]['titlelen']="16";
+$z[10][4]['typeid']="13";
+$z[11]=Array("type","<a href=\"list.php?tid=[field:id/]\">了解更多 >> </a>",4039,4129);
+$z[11][4]['typeid']="13";
+$z[12]=Array("arclist","\r\n      <li>\r\n      	<a href=\"view.php?aid=[field:id/]\">\r\n        <div class=\"lzj\"><img src=\"[field:litpic/]\"  /></div>\r\n        <h3>[field:title/]</h3>\r\n        <p>[field:description function='cn_substr(@me,60)'/]...</p>\r\n        </a>\r\n      </li>\r\n        ",4539,4860);
+$z[12][4]['row']="4";
+$z[12][4]['titlelen']="36";
+$z[12][4]['typeid']="34";
+$z[13]=Array("type","<a href=\"list.php?tid=[field:id/]\">了解更多 >> </a>",4973,5063);
+$z[13][4]['typeid']="34";
+$z[14]=Array("include","",5173,5210);
+$z[14][4]['filename']="foot_m.htm";
+
+?>

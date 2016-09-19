@@ -1,0 +1,1 @@
+<span class="" onclick="window.open('[field:typeurl/]')"> [field:typename/]</span>

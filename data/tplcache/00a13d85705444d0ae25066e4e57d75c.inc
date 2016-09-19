@@ -1,0 +1,1 @@
+<a class="yan2" href="[field:typeurl/]">[field:typename/]</a>

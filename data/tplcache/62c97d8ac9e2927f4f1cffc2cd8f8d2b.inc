@@ -1,0 +1,1 @@
+<li><a href="javascript:void(0)"><div class="lzj"><img src="[field:litpic/]"/></div>[field:title/]</a></li>

@@ -1,0 +1,6 @@
+INSERT INTO `dede_search_keywords` VALUES('1','青岛空压机','青岛空压机 空压机 青岛','5','1','1463493669','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','螺杆空压机','螺杆空压机 空压机 螺杆','1','3','1441081174','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','空压机','空压机 空压机','1','31','1463320249','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','节能空压机','节能空压机 空压机 节能','4','0','1463493716','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','进口空压机','进口空压机 空压机 进口','1','0','1463320274','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','大型配件柜','大型配件柜 大型 配件','1','0','1463320310','0','0');

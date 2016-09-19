@@ -1,0 +1,28 @@
+﻿
+#roll_top, #fall, #ct {
+	position: relative;
+	cursor: pointer;
+	height: 72px;
+	width: 26px;
+}
+#roll_top {
+	background: url(/skin/images/top.gif) no-repeat;
+}
+#fall {
+	background: url(/skin/images/top.gif) no-repeat 0 -80px;
+}
+#ct {
+	background: url(/skin/images/top.gif) no-repeat 0 -40px;
+}
+#roll {
+	display: block;
+	width: 15px;
+	margin-right: -515px;
+	position: fixed;
+	right: 50%;
+	top: 50%;
+	_margin-right: -525px;
+	_position: absolute;
+	_margin-top: 300px;
+ _top: expression(eval(document.documentElement.scrollTop));
+}

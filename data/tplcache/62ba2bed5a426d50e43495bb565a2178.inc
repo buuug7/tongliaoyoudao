@@ -1,0 +1,2 @@
+<div class="bgitem" id="flashbg0" style="background: url('[field:litpic/]') no-repeat scroll center top;
+                height: 420px; width: 100%; cursor: pointer; margin: 0 auto;"><a href="[field:arcurl/]"></a> </div>

@@ -1,0 +1,46 @@
+<?php
+$z[0]=Array("field","",317,346);
+$z[0][4]['name']="typename";
+$z[1]=Array("global","",347,373);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",414,443);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",483,541);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1113,1148);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1403,1462);
+$z[5][4]['name']="typeid";
+$z[5][4]['function']="GetTopTypename(@me)";
+$z[6]=Array("channel","\r\n      <li sid='0001,0011'><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n      ",1515,1750);
+$z[6][4]['type']="son";
+$z[6][4]['currentstyle']="<li class='cur'><a href='~typelink~' class='thisclass'>~typename~</a></li>";
+$z[7]=Array("global","",1770,1794);
+$z[7][4]['name']="cfg_telby";
+$z[8]=Array("global","",1878,1900);
+$z[8][4]['name']="cfg_tel";
+$z[9]=Array("arclist","\r\n<li><a href='[field:arcurl/]' title='[field:title/]'>[field:title/]</a></li>\r\n",2002,2142);
+$z[9][4]['titlelen']="60";
+$z[9][4]['row']="10";
+$z[9][4]['typeid']="34";
+$z[10]=Array("type","<a class=\"yan2\" href=\"[field:typeurl/]\">[field:typename/]</a>",2248,2343);
+$z[10][4]['typeid']="3";
+$z[11]=Array("global","",2424,2449);
+$z[11][4]['name']="cfg_lianxi";
+$z[12]=Array("field","",2565,2594);
+$z[12][4]['name']="position";
+$z[13]=Array("field","",2726,2747);
+$z[13][4]['name']="content";
+$z[14]=Array("field","",2911,2938);
+$z[14][4]['name']="phpurl";
+$z[15]=Array("field","",2962,2985);
+$z[15][4]['name']="id";
+$z[16]=Array("field","",2990,3014);
+$z[16][4]['name']="mid";
+$z[17]=Array("field","",3151,3173);
+$z[17][4]['name']="keywords";
+$z[18]=Array("include","",3434,3471);
+$z[18][4]['filename']="footer.htm";
+
+?>

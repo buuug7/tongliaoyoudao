@@ -1,0 +1,15 @@
+<header> <a class="fanhui" href="javascript:window.history.back();"></a> <strong>{dede:field name='typeid' function="GetTopTypename(@me)" /}</strong> <a href="#" class="menubtn"></a> 
+  <!-- use captain icon for toggle menu -->
+  <div id="hamburgermenu">
+    <ul>
+    <li><a href="/m">网站首页</a></li>
+      {dede:channel type='top' row='8'}
+    <li><a href='list.php?tid=[field:id/]'>[field:typename/]</a></li>
+    {/dede:channel}
+	
+	 <li><a href='list.php?tid=45'>公司地址</a></li>
+	
+    </ul>
+  </div>
+  <div class="overlay"></div>
+</header>

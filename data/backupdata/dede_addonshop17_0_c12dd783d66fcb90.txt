@@ -1,0 +1,6 @@
+INSERT INTO `dede_addonshop17` VALUES('90','44','','0','0','','','','127.0.0.1','/about','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('91','44','','0','0','','','','127.0.0.1','/about','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('92','44','','0','0','','','','127.0.0.1','/about','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('93','46','','0','0','','','','127.0.0.1','','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('94','46','','0','0','','','','127.0.0.1','','0','0','0');
+INSERT INTO `dede_addonshop17` VALUES('95','46','','0','0','','','','127.0.0.1','','0','0','0');

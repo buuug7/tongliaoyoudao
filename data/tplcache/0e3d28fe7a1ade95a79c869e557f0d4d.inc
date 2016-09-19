@@ -1,0 +1,1 @@
+<li><a href="[field:typelink/]" class="cur">[field:typename/]</a></li>

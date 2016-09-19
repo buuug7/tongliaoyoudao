@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]">推荐产品</a>

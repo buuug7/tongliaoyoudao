@@ -1,0 +1,36 @@
+<div class="left">
+<div class="cpMu">
+  <h4><a href='javascript:void(0)'>{dede:field name='typeid' function="GetTopTypename(@me)" /}</a></h4>
+  <div class="cpMuCont">
+    <ul>
+      {dede:channel type='son' currentstyle="
+      <li class='cur'><a href='~typelink~' class='thisclass'>~typename~</a></li>
+      "}
+      <li sid='0001,0011'><a href='[field:typeurl/]'>[field:typename/]</a></li>
+      {/dede:channel}
+    </ul>
+    <p>{dede:global.cfg_telby/}</p>
+    <dl class="mu_phone">
+      <dt>全国统一服务热线</dt>
+      <dd>{dede:global.cfg_tel/}</dd>
+    </dl>
+  </div>
+</div>
+<h4 class="t05">相关资讯</h4>
+<div class='t05_cons1'>
+<ul>
+{dede:arclist titlelen=60 row=10 typeid='34'}
+<li><a href='[field:arcurl/]' title='[field:title/]'>[field:title/]</a></li>
+{/dede:arclist}
+<div class="clear"></div>
+</div>
+<div class="contactn mt10 mb10 mb10">
+  <div class="t05">
+    <h4> {dede:type typeid='45'}<a class="yan2" href="[field:typeurl/]">[field:typename/]</a>{/dede:type}</h4>
+  </div>
+  <div class="subnr"> <img src="/skin/images/catactus.jpg">
+   {dede:global.cfg_lianxi/}
+    <p></p>
+  </div>
+</div>
+</div>

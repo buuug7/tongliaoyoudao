@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("field","",277,306);
+$z[0][4]['name']="typename";
+$z[1]=Array("global","",307,333);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",378,407);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",451,509);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1220,1255);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("type","[field:typeurl/]",1524,1573);
+$z[5][4]['typeid']="";
+$z[6]=Array("channel","\r\n              <li sid='0001,0011'><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n              ",1661,1928);
+$z[6][4]['type']="son";
+$z[6][4]['currentstyle']="<li class='cur'><a href='~typelink~' class='thisclass'>~typename~</a></li>";
+$z[7]=Array("global","",1961,1985);
+$z[7][4]['name']="cfg_telby";
+$z[8]=Array("global","",2090,2112);
+$z[8][4]['name']="cfg_tel";
+$z[9]=Array("arclist","\r\n        <dl>\r\n              <dt><a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\"> <img alt=\"[field:title/]\" src=\"[field:picname/]\"></a></dt>\r\n              <dd> <a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\"> [field:title/]</a></dd>\r\n            </dl>\r\n        ",2403,2748);
+$z[9][4]['typeid']="13";
+$z[9][4]['row']="15";
+$z[10]=Array("type","<a class=\"yan2\" href=\"[field:typeurl/]\">[field:typename/]</a>",2977,3073);
+$z[10][4]['typeid']="45";
+$z[11]=Array("global","",3154,3179);
+$z[11][4]['name']="cfg_lianxi";
+$z[12]=Array("field","",3402,3431);
+$z[12][4]['name']="position";
+$z[13]=Array("list","\r\n          <dl class=\"p_list_dl\">\r\n        <dt><a href=\"[field:arcurl/]\" title=\"[field:title/]\"> <img src=\"[field:picname/]\" alt=\"[field:title/]\" title=\"[field:title/]\"\r\n                                    width=\"180\" height=\"150\"></a></dt>\r\n        <dd>\r\n              <h5> <a href=\"[field:arcurl/]\" title=\"[field:title/]\"> [field:title/]</a></h5>\r\n            </dd>\r\n      </dl>\r\n          ",3501,3931);
+$z[13][4]['pagesize']="12";
+$z[14]=Array("arclist","\r\n        <li><span class=\"fr\"> [field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span><a target=\"_blank\"\r\n                                    href=\"[field:arcurl/]\" title=\"[field:title/]\"> [field:title/]</a></li>\r\n        ",4110,4392);
+$z[14][4]['titlelen']="60";
+$z[14][4]['row']="20";
+$z[14][4]['typeid']="34";
+$z[15]=Array("include","",4595,4632);
+$z[15][4]['filename']="footer.htm";
+
+?>

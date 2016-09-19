@@ -1,0 +1,1 @@
+<a class="titA" href="[field:typeurl/]">[field:typename/]</a><a class="titMore" href="[field:typeurl/]">更多</a>

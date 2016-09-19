@@ -161,9 +161,9 @@ $cfg_dwebname = 'FK模板中心';
 $cfg_biaoyu = '专业，规范，高效';
 $cfg_telby = '专业，规范，高效';
 $cfg_lianxi = '<p> <span style="font-size: 12px;">全国统一服务热线：</span></p>     
-<p style="font-size: 20px; color: #546a85;"> 400-0000-000</p>     
-<p> <span>固话：</span>0599-1234567</p>     
-<p> <span>邮箱：</span>233079908@qq.com </p>     
-<p><span>地址：</span>福建省南平市顺昌货场路</p>   ';
+<p style="font-size: 20px; color: #546a85;"> 13948158910</p>     
+<p> <span>固话：</span></p>     
+<p> <span>邮箱：</span>tlydkj@126.com </p>     
+<p><span>地址：</span>通辽市科尔沁区美域华府2号楼119号</p>   ';
 $cfg_qq = '';
 ?>

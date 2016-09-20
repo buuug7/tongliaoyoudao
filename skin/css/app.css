@@ -8,6 +8,9 @@
 
 /* new add start */
 /* new */
+.margin-top-15 {
+  margin-top: 15px; }
+
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }

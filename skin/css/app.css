@@ -10,6 +10,9 @@
 .ysBox {
   height: 404px; }
 
+.mainContent {
+  background: none; }
+
 .wrap {
   background: url("../images/maincontent.png") repeat center top; }
 

@@ -1,8 +1,5 @@
 /**/
-body {
-  background-color: red; }
-
-.dh_nav .container ul li a {
+.dh_nav > ul > li > a {
   font-size: 20px !important;
   padding: 0 60px !important; }
 

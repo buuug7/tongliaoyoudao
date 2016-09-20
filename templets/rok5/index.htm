@@ -18,73 +18,18 @@
 <body>
 {dede:include filename="head.htm"/}
 
-<div class="bannerBox">
-    <div id="flashs">
+<div class="wrap">
+    <div class="bannerBox">
+        <div id="flashs">
 
-        {dede:arclist orderby='id' typeid='44' row=4 }
-        <div class="bgitem" id="flashbg[field:global name=autoindex runphp=" yes
-        "]@me=@me-1;[/field:global]" style="background: url('[field:litpic/]') no-repeat scroll center top;
-        height: 420px; width: 100%; cursor: pointer; margin: 0 auto;"><a href="[field:arcurl/]"></a></div>
-    {/dede:arclist}
-</div>
+            {dede:arclist orderby='id' typeid='44' row=4 }
+            <div class="bgitem" id="flashbg[field:global name=autoindex runphp=" yes
+            "]@me=@me-1;[/field:global]" style="background: url('[field:litpic/]') no-repeat scroll center top;
+            height: 420px; width: 100%; cursor: pointer; margin: 0 auto;"><a href="[field:arcurl/]"></a></div>
+        {/dede:arclist}
+    </div>
 </div>
 <div class="mainContent margin-top-15">
-
-
-<!--
-    <div class="search container">
-
-
-        <div class="searchBox">
-            <form name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
-                <input class="soText" type="text" id="seachkeywords" name="q"/>
-                <input class="soBtn curp" type="submit" value="" onclick="xuanze()"/>
-            </form>
-        </div>
-        <span class="keyWord"><em>热门关键词：</em> <em id="commonHeaderkeywords">{dede:hotwords num='6'/}</em></span>
-
-    </div>
--->
-
-
-<!--
-  <div class="cpSpan container">
-        <div class="cpMu fl">
-          <h4> <a href="/a/chanpinzhongxin/"> 产品中心</a></h4>
-          <div class="cpMuCont">
-            <ul>
-              {dede:channel type='son' typeid='1' row='11' currentstyle="
-              <li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>
-              "}
-              <li><a href="[field:typeurl/]"> [field:typename/]</a></li>
-              {/dede:channel}
-            </ul>
-            <p> {dede:global.cfg_telby/}</p>
-            <dl class="mu_phone">
-              <dt>全国统一服务热线</dt>
-              <dd> {dede:global.cfg_tel/}</dd>
-            </dl>
-          </div>
-        </div>
-        <div class="cpList fr">
-          <h4> {dede:type typeid='1'}<a href="[field:typeurl/]">推荐产品</a>{/dede:type}</h4>
-          <div class="cpListCont"> {dede:arclist typeid='1' row=12 }
-            <dl>
-              <dt><a href="[field:arcurl/]" title="[field:title/]"> <img src="[field:picname/]" alt="[field:title/]" title="[field:title/]"
-                                width="180" height="150"></a></dt>
-              <dd>
-                <h5> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></h5>
-              </dd>
-            </dl>
-            {/dede:arclist} </div>
-        </div>
-        <div class="clear"> </div>
-      </div>
--->
-
-<!--
-<div class="slGgl container"><img src="/skin/images/slgglimg.jpg" alt=""/></div>
--->
 
     <div class="ysBox container">
         {dede:myad name='indexTopBanner1'/}
@@ -92,20 +37,6 @@
 
     {dede:myad name='indexTopBanner2'/}
 
-<!--
-    <div class="gdn container">
-        <h4 class="contTit"> {dede:type typeid='13'}<a class="titA" href="[field:typeurl/]">[field:typename/]</a><a
-                class="titMore" href="[field:typeurl/]">更多</a>{/dede:type}</h4>
-        <ul>
-            {dede:arclist typeid='13' row=4}
-            <li><a href="[field:arcurl/]" title="[field:title/]"> <img alt="[field:title/]" src="[field:picname/]"
-                                                                       width="218" height="164"/></a>
-                <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
-            </li>
-            {/dede:arclist}
-        </ul>
-    </div>
--->
 
 
 
@@ -238,7 +169,7 @@
                             [field:info/]...</p>
                         <a class="btnGd" href="[field:arcurl/]">查看更多</a></dd>
                 </dl>
-                {/dede:arclist}
+                                 {/dede:arclist}
             </div>
         </div>
         <div class="tdBox fr">
@@ -299,7 +230,7 @@
                         <dt><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></dt>
                         <dd> [field:info/]...</dd>
                     </dl>
-                    {/dede:arclist}
+                               {/dede:arclist}
                 </div>
             </div>
         </div>
@@ -311,103 +242,107 @@
     </div>
     <!-- 加盟直通车 -->
 
-<!--
-    <div class="dySpan container">
-        <div class="dtBox fl">
-            <div class="dtTab"> {dede:type typeid='35'}<span class="cur" onclick="window.open('[field:typeurl/]')"> [field:typename/]</span>{/dede:type}
-                {dede:type typeid='36'}<span class=""
-                                             onclick="window.open('[field:typeurl/]')"> [field:typename/]</span>{/dede:type}
-            </div>
-            <div class="cpConts"> {dede:arclist typeid='35' limit='0,1' infolen='120'}
-                <dl>
-                    <dt class="fl"><a href="[field:arcurl/]" title="[field:title/]"> <img src="[field:picname/]"
-                                                                                          width="146" height="102"
-                                                                                          alt="[field:title/]"/></a>
-                    </dt>
-                    <dd>
-                        <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
-                        <p> [field:info/]...</p>
-                    </dd>
-                </dl>
-                {/dede:arclist}
-                <ul>
-                    {dede:arclist typeid='35' limit='1,5' titlelen=60}
-                    <li><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a><span>[[field:pubdate function="MyDate('Y-m-d',@me)"/]]</span>
-                    </li>
+    <!--
+        <div class="dySpan container">
+            <div class="dtBox fl">
+                <div class="dtTab"> {dede:type typeid='35'}<span class="cur" onclick="window.open('[field:typeurl/]')"> [field:typename/]</span>{/dede:type}
+                    {dede:type typeid='36'}<span class=""
+                                                 onclick="window.open('[field:typeurl/]')"> [field:typename/]</span>{/dede:type}
+                </div>
+                <div class="cpConts"> {dede:arclist typeid='35' limit='0,1' infolen='120'}
+                    <dl>
+                        <dt class="fl"><a href="[field:arcurl/]" title="[field:title/]"> <img src="[field:picname/]"
+                                                                                              width="146" height="102"
+                                                                                              alt="[field:title/]"/></a>
+                        </dt>
+                        <dd>
+                            <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
+                            <p> [field:info/]...</p>
+                        </dd>
+                    </dl>
                     {/dede:arclist}
-                </ul>
-            </div>
-            <div class="cpConts" style='display: none;'> {dede:arclist typeid='36' limit='0,1' infolen='120'}
-                <dl>
-                    <dt class="fl"><a href="[field:arcurl/]" title="[field:title/]"> <img src="[field:picname/]"
-                                                                                          width="146" height="102"
-                                                                                          alt="[field:title/]"/></a>
-                    </dt>
-                    <dd>
-                        <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
-                        <p> [field:info/]...</p>
-                    </dd>
-                </dl>
-                {/dede:arclist}
-                <ul>
-                    {dede:arclist typeid='36' limit='1,5' titlelen=60}
-                    <li><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a><span>[[field:pubdate function="MyDate('Y-m-d',@me)"/]]</span>
-                    </li>
+                    <ul>
+                        {dede:arclist typeid='35' limit='1,5' titlelen=60}
+                        <li><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a><span>[[field:pubdate function="MyDate('Y-m-d',@me)"/]]</span>
+                        </li>
+                        {/dede:arclist}
+                    </ul>
+                </div>
+                <div class="cpConts" style='display: none;'> {dede:arclist typeid='36' limit='0,1' infolen='120'}
+                    <dl>
+                        <dt class="fl"><a href="[field:arcurl/]" title="[field:title/]"> <img src="[field:picname/]"
+                                                                                              width="146" height="102"
+                                                                                              alt="[field:title/]"/></a>
+                        </dt>
+                        <dd>
+                            <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
+                            <p> [field:info/]...</p>
+                        </dd>
+                    </dl>
                     {/dede:arclist}
-                </ul>
+                    <ul>
+                        {dede:arclist typeid='36' limit='1,5' titlelen=60}
+                        <li><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a><span>[[field:pubdate function="MyDate('Y-m-d',@me)"/]]</span>
+                        </li>
+                        {/dede:arclist}
+                    </ul>
+                </div>
             </div>
-        </div>
-        <script type="text/javascript">
+            <script type="text/javascript">
 
-            $('.dtBox .dtTab span').mouseover(function () {
-                $(this).addClass("cur").siblings().removeClass("cur");
-                //$("#curUrl2").attr("href", $(this).find("a").attr("href"));
-                $(".dtBox .cpConts").eq($('.dtBox .dtTab span').index(this)).show().siblings(".cpConts").hide();
-            });
-        </script>
+                $('.dtBox .dtTab span').mouseover(function () {
+                    $(this).addClass("cur").siblings().removeClass("cur");
+                    //$("#curUrl2").attr("href", $(this).find("a").attr("href"));
+                    $(".dtBox .cpConts").eq($('.dtBox .dtTab span').index(this)).show().siblings(".cpConts").hide();
+                });
+            </script>
 
-        &lt;!&ndash; 在线留言 &ndash;&gt;
-        <div class="lyBox fr" id="liuyan">
-            <h4 class="contTit"><a class="titA">在线留言</a></h4>
-            <div class="lyCont"><span class="fPhone"> {dede:global.cfg_tel/}</span>
-                <ul class="m_form">
-                    <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
-                        <input type="hidden" name="action" value="post"/>
-                        <input type="hidden" name="diyid" value="1"/>
-                        <input type="hidden" name="do" value="2"/>
-                        <li>
-                            <label> <img src="/skin/images/form_ico01.png"/></label>
-                            <input class="iptTxt" type='text' name='name' id='name' value="联  系 人 ："
-                                   onfocus="this.value=''" onblur="if(this.value=='')this.value='联  系 人 ：'"/>
-                        </li>
-                        <li>
-                            <label> <img src="/skin/images/form_ico02.png"/></label>
-                            <input class="iptTxt" type='text' name='tel' id='tel' type="text" value="联系手机："
-                                   onfocus="this.value=''" onblur="if(this.value=='')this.value='联系手机：'"/>
-                        </li>
-                        <li>
-                            <label> <img src="/skin/images/form_ico03.png"/></label>
-                            <input class="iptTxt" type='text' name='email' id='email' value="电子邮箱："
-                                   onfocus="this.value=''" onblur="if(this.value=='')this.value='电子邮箱：'"/>
-                        </li>
-                        <li class="areLi">
-                            <label> <img src="/skin/images/form_ico04.png"/></label>
-                            <textarea class="txtAre" type='text' name='content' id='content' onfocus="this.value=''"
-                                      onblur="if(this.value=='')this.value='留       言：'">留       言：</textarea>
-                        </li>
-                        <input type="hidden" name="dede_fields" value="name,text;tel,text;email,text;content,text"/>
-                        <input type="hidden" name="dede_fieldshash" value="877b0484352c0bb6689972090e73d6d9"/>
-                        <li>
-                            <input class="btnSubmit" type="submit" name="submit" value=""/>
-                        </li>
-                    </form>
-                </ul>
+            &lt;!&ndash; 在线留言 &ndash;&gt;
+            <div class="lyBox fr" id="liuyan">
+                <h4 class="contTit"><a class="titA">在线留言</a></h4>
+                <div class="lyCont"><span class="fPhone"> {dede:global.cfg_tel/}</span>
+                    <ul class="m_form">
+                        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+                            <input type="hidden" name="action" value="post"/>
+                            <input type="hidden" name="diyid" value="1"/>
+                            <input type="hidden" name="do" value="2"/>
+                            <li>
+                                <label> <img src="/skin/images/form_ico01.png"/></label>
+                                <input class="iptTxt" type='text' name='name' id='name' value="联  系 人 ："
+                                       onfocus="this.value=''" onblur="if(this.value=='')this.value='联  系 人 ：'"/>
+                            </li>
+                            <li>
+                                <label> <img src="/skin/images/form_ico02.png"/></label>
+                                <input class="iptTxt" type='text' name='tel' id='tel' type="text" value="联系手机："
+                                       onfocus="this.value=''" onblur="if(this.value=='')this.value='联系手机：'"/>
+                            </li>
+                            <li>
+                                <label> <img src="/skin/images/form_ico03.png"/></label>
+                                <input class="iptTxt" type='text' name='email' id='email' value="电子邮箱："
+                                       onfocus="this.value=''" onblur="if(this.value=='')this.value='电子邮箱：'"/>
+                            </li>
+                            <li class="areLi">
+                                <label> <img src="/skin/images/form_ico04.png"/></label>
+                                <textarea class="txtAre" type='text' name='content' id='content' onfocus="this.value=''"
+                                          onblur="if(this.value=='')this.value='留       言：'">留       言：</textarea>
+                            </li>
+                            <input type="hidden" name="dede_fields" value="name,text;tel,text;email,text;content,text"/>
+                            <input type="hidden" name="dede_fieldshash" value="877b0484352c0bb6689972090e73d6d9"/>
+                            <li>
+                                <input class="btnSubmit" type="submit" name="submit" value=""/>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
             </div>
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
-    </div>
--->
+    -->
 </div>
+</div>
+
+
+
 {dede:include filename="footer.htm"/}
 
 <div class="yqlj container">

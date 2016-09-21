@@ -31,9 +31,7 @@
 </div>
 <div class="mainContent margin-top-15">
 
-    <div class="ysBox container" style="display: none;">
-        {dede:myad name='indexTopBanner1'/}
-    </div>
+
 
     {dede:myad name='indexTopBanner2'/}
 
@@ -144,105 +142,14 @@
 
 
 
-    <div class="ktSpan container" style="display: none;">
-        <div class="khjz fl">
-            <h4 class="contTit"> {dede:type typeid='39'}<a class="titA" href="[field:typeurl/]">[field:typename/]</a><a
-                    class="titMore" href="[field:typeurl/]">更多</a>{/dede:type}</h4>
-            <div class="khCont"> {dede:arclist typeid='39' row=2 infolen='200'}
-                <dl>
-                    <dt class="fl"><a href="[field:arcurl/]" title="[field:title/]"> <img alt="[field:title/]"
-                                                                                          src="[field:picname/]"
-                                                                                          width="224" height="174"/></a>
-                    </dt>
-                    <dd>
-                        <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
-                        <p><br/>
-                            [field:info/]...</p>
-                        <a class="btnGd" href="[field:arcurl/]">查看更多</a></dd>
-                </dl>
-                                 {/dede:arclist}
-            </div>
-        </div>
-        <div class="tdBox fr">
-            <h4 class="contTit"> {dede:type typeid='40'}<a class="titA" href="[field:typeurl/]"> [field:typename/]</a>{/dede:type}
-            </h4>
-            <ul id="tuandui">
-                {dede:arclist typeid='40' row=2}
-                <li><a href="[field:arcurl/]" title="[field:title/]"> <img alt="[field:title/]" src="[field:picname/]"
-                                                                           width="274" height="178"
-                                                                           alt=""/></a>
-                    <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
-                </li>
-                {/dede:arclist}
-            </ul>
-        </div>
-        <div class="clear"></div>
-    </div>
-    <!-- 广告栏 -->
-    <!--<div class="ggl container"><img src="/skin/images/gglimg.jpg" alt=""/> <span> {dede:global.cfg_tel/}</span></div>-->
-    <div class="gcSpan container" style="display: none">
-        <div class="gyBox fl">
-            <h4 class="contTit"> {dede:type typeid='25'}<a class="titA" href="[field:typeurl/]"> [field:typename/]</a>{/dede:type}
-            </h4>
-            <div class="gyCont">
-                <dl>
-                    <dt class="fl"><img src="/skin/images/gs.png" alt="关于我们" width="282"
-                                        height="206"/></dt>
-                    <dd>
-                        <h5>
-                            <a href="{dede:type typeid='25'}[field:typeurl/]{/dede:type}">{dede:global.cfg_dwebname/}</a>
-                        </h5>
-                        <p> {dede:sql sql='Select content from dede_arctype where id=24'}
-                            [field:content function='cn_substr(html2text(@me),480)'/]...
-                            {/dede:sql}</p>
-                        <a class="gyMore" href="{dede:type typeid='25'}[field:typeurl/]{/dede:type}">查看更多</a></dd>
-                </dl>
-                <div class="cjBox">
-                    <div class="cjTit"> {dede:type typeid='42'}<a href="[field:typeurl/]">[field:typename/]</a>{/dede:type}
-                    </div>
-                    <ul id="chej">
-                        {dede:arclist typeid='42' row=4 }
-                        <li><a href="[field:arcurl/]" title="[field:title/]"> <img alt="[field:title/]"
-                                                                                   src="[field:picname/]" width="146"
-                                                                                   height="106"/></a>
-                            <h5><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></h5>
-                        </li>
-                        {/dede:arclist}
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="wtjd fr">
-            <h4 class="contTit"> {dede:type typeid='37'}<a class="titA" href="[field:typeurl/]"> [field:typename/]</a>{/dede:type}
-            </h4>
-            <div class="wtjdCont">
-                <div id="faq"> {dede:arclist typeid='37' row=6 infolen='200' titlelen=60}
-                    <dl>
-                        <dt><a href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></dt>
-                        <dd> [field:info/]...</dd>
-                    </dl>
-                               {/dede:arclist}
-                </div>
-            </div>
-        </div>
-        <script type="text/javascript">
-
-            //new Marquee("faq", 0, 1, 306, 392, 40, 0, 1000, 22);
-        </script>
-        <div class="clear"></div>
-    </div>
 
 </div>
-</div>
+
 
 
 
 {dede:include filename="footer.htm"/}
 
-<!--<div class="yqlj container">
-    <h4 class="fl"><a> <img src="/skin/images/yqljtit.png" width="88" height="48"/></a></h4>
-    <p> {dede:flink titlelen='20' row='20' type='text'} [field:link /] {/dede:flink} </p>
-</div>-->
 
 
 <script type="text/javascript" src="/skin/js/jquery.js"></script>

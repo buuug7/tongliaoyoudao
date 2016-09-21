@@ -81,6 +81,8 @@
 /*YANJF start*/
 .header .hd_cont .hd_logo h2 {
   color: red; }
+.header .hd_cont .dh_phone dt {
+  color: #e36c09; }
 
 .footer .fotPhone dd {
   color: #ffffff; }

@@ -1,42 +1,48 @@
 <script type="text/javascript">
-if(/AppleWebKit.*mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
-    if(window.location.href.indexOf("?mobile")<0){
-        try{
-            if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
-                window.location.href="/m";
-            }else if(/iPad/i.test(navigator.userAgent)){
-                window.location.href="/m";
-            }else{
-                window.location.href="/m"
+    if (/AppleWebKit.*mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+        if (window.location.href.indexOf("?mobile") < 0) {
+            try {
+                if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+                    window.location.href = "/m";
+                } else if (/iPad/i.test(navigator.userAgent)) {
+                    window.location.href = "/m";
+                } else {
+                    window.location.href = "/m"
+                }
+            } catch (e) {
             }
-        }catch(e){}
+        }
     }
-}
 </script>
 
 
 <div class="header">
-  <div class="hd_top tr">
-    <div class="container"> <em class="fl">欢迎光临{dede:global.cfg_dwebname/}！</em> <span class="fr"> {dede:type typeid='24'}<a href="[field:typeurl/]">[field:typename/]</a>{/dede:type} | {dede:type typeid='45'}<a href="[field:typeurl/]">[field:typename/]</a>{/dede:type}| <a href="{dede:global.cfg_basehost/}#liuyan">在线留言</a> </span> </div>
-  </div>
-  <div class="hd_cont container">
-    <dl class="hd_logo">
-      <dt class="fl"><a href="/"> <img src="/skin/images/logo.png" alt="{dede:global.cfg_webname/}" /></a></dt>
-      <dd class="fl">
-        <h2> {dede:global.cfg_biaoyu/}</h2>
-      </dd>
-    </dl>
-    <dl class="dh_phone fr">
-      <dt>客服热线</dt>
-      <dd> {dede:global.cfg_tel/}</dd>
-    </dl>
-  </div>
-  <div class="dh_nav">
-    <ul class="container">
-      <li class='home'><a class="navHome" href="/">网站首页</a></li>
-     {dede:channel type='top' row='9' currentstyle="<li><a class='cur' href='~typelink~' ~rel~>~typename~</a></li>"}
-      <li><a href="[field:typelink/]">[field:typename/]</a></li>
-     {/dede:channel}
-    </ul>
-  </div>
+    <div class="hd_top tr">
+        <div class="container"><em class="fl">欢迎光临{dede:global.cfg_dwebname/}！</em> <span class="fr"> {dede:type typeid='24'}<a
+                href="[field:typeurl/]">[field:typename/]</a>{/dede:type} | {dede:type typeid='45'}<a
+                href="[field:typeurl/]">[field:typename/]</a>{/dede:type}|</span>
+        </div>
+    </div>
+    <div class="hd_cont container">
+        <dl class="hd_logo">
+            <dt class="fl"><a href="/"> <img src="/skin/images/logo.png" alt="{dede:global.cfg_webname/}"/></a></dt>
+            <dd class="fl">
+                <h2> {dede:global.cfg_biaoyu/}</h2>
+            </dd>
+        </dl>
+        <dl class="dh_phone fr">
+            <dt>客服热线</dt>
+            <dd> {dede:global.cfg_tel/}</dd>
+        </dl>
+    </div>
+    <div class="dh_nav">
+        <ul class="container">
+            <li class='home'><a class="navHome" href="/">网站首页</a></li>
+            {dede:channel type='top' row='9' currentstyle="
+            <li><a class='cur' href='~typelink~' ~rel~>~typename~</a></li>
+            "}
+            <li><a href="[field:typelink/]">[field:typename/]</a></li>
+            {/dede:channel}
+        </ul>
+    </div>
 </div>

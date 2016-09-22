@@ -1,97 +1,127 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns = "http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="author" content="order by xueyunym.com" />
-<title>{dede:global.cfg_webname/}</title>
-<meta name="description" content="{dede:global.cfg_description/}" />
-<meta name="keywords" content="{dede:global.cfg_keywords/}" />
-<link rel="stylesheet" type="text/css" href="/style/css/ltkj.css"/>
-  <link rel="stylesheet" href="/style/css/app.css">
+    <meta http-equiv = "Content-Type" content = "text/html; charset=utf-8"/>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta name = "apple-mobile-web-app-capable" content = "yes"/>
+    <meta name = "author" content = "order by xueyunym.com"/>
+    <title>{dede:global.cfg_webname/}</title>
+    <meta name = "description" content = "{dede:global.cfg_description/}"/>
+    <meta name = "keywords" content = "{dede:global.cfg_keywords/}"/>
+    <link rel = "shortcut icon" type = "image/x-icon" href = "/favicon.ico">
+    <link rel = "stylesheet" type = "text/css" href = "/style/css/ltkj.css"/>
+    <link rel = "stylesheet" href = "/skin/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "/style/css/app.css">
 </head>
 <body>
-<!--首页头部的开始-->
-<div class="ltop">
-  <div class="ltopl fl"><img src="/skin/images/logo.png"  /></div>
-  <div class="ltopr fr">
-    <div class="dhtp"> <img src="/style/images/shouji_06.jpg"  /> </div>
-    <p>客服电话：<br />
-      <strong>{dede:global.cfg_tel/}</strong></p>
-    <div class="clear"></div>
-  </div>
-  <div class="clear"></div>
-</div>
 
-<!--首页头部的结束--> 
+<!--首页头部的开始-->
+<div class = "ltop">
+    <div class = "ltopl fl"><img src = "/skin/images/logo.png" alt="logo" /></div>
+    <div class = "ltopr fr">
+        <div class = "dhtp"><img src = "/style/images/shouji_06.jpg" alt="phone" /></div>
+        <p>客服电话：<br/>
+            <strong>{dede:global.cfg_tel/}</strong></p>
+        <div class = "clear"></div>
+    </div>
+    <div class = "clear"></div>
+</div>
+<!--首页头部的结束-->
+
 
 <!--nav的开始-->
-
-<div class="lnav">
-  <ul>
-    <li><a href="/m">网站首页</a></li>
-    {dede:channel type='top' row='8'}
-    <li><a href='list.php?tid=[field:id/]'>[field:typename/]</a></li>
-    {/dede:channel}
-  </ul>
+<div class = "lnav">
+    <ul>
+        <li><a href = "/m">网站首页</a></li>
+        {dede:channel type='top' row='8'}
+        <li><a href = 'list.php?tid=[field:id/]'>[field:typename/]</a></li>
+        {/dede:channel}
+    </ul>
 </div>
+<!--nav的结束-->
 
-<!--nav的结束--> 
 
 <!--ban图片的开始-->
+<div id = "slides" class = "slider-focus">
+    <div class = "bd">
+        <ul>
+            {dede:arclist row='3' titlelen='36' typeid='46'}
+            <li><a class = 'pic' href = "javascript:void(0)"><img src = "[field:litpic/]"/> </a></li>
+            {/dede:arclist}
+        </ul>
+    </div>
+    <div class = "hd">
+        <ul>
+        </ul>
+    </div>
+</div>
+<!--ban图片的结束-->
 
-<div id="slides" class="slider-focus">
-  <div class="bd">
-    <ul>
-      {dede:arclist row='3' titlelen='36' typeid='46'}
-        <li><a class='pic' href="javascript:void(0)"><img src="[field:litpic/]" /> </a></li>
-      {/dede:arclist}
-    </ul>
-  </div>
-  <div class="hd">
-    <ul>
-    </ul>
-  </div>
+
+
+
+
+<!--业务范围-->
+<div class = "lgywm">
+    <div class = "lgywm_title">
+        <div class = "xian"></div>
+        <div class = "lwenzi">
+            <p><strong>业务范围</strong></p>
+        </div>
+    </div>
+    <div class = "lgywm_wz">
+        <p>{dede:sql sql="select content from dede_arctype where id=24"}[field:content
+           function=cn_substr(Html2Text(@me),500)/]{/dede:sql}</p>
+    </div>
+    <div class = "angd"><a href = "list.php?tid=[field:id/]">了解更多 >> </a></div>
 </div>
 
-<!--ban图片的结束--> 
+
+
+
+
+
+
+
+
+
+
 
 
 
 <!--公司简介-->
-<div class="lgywm">
-  <div class="lgywm_title">
-    <div class="xian"></div>
-    <div class="lwenzi">
-      <p><strong>关于我们</strong><br />
-        ABOUT US</p>
+<div class = "lgywm">
+    <div class = "lgywm_title">
+        <div class = "xian"></div>
+        <div class = "lwenzi">
+            <p><strong>关于我们</strong><br/>
+                ABOUT US</p>
+        </div>
     </div>
-  </div>
-  <div class="lgywm_wz">
-    <p>{dede:sql sql="select content from dede_arctype where id=24"}[field:content
-       function=cn_substr(Html2Text(@me),500)/]{/dede:sql}</p>
-  </div>
-  <div class="angd">{dede:type typeid='25'}<a href="list.php?tid=[field:id/]">了解更多 >> </a>{/dede:type}</div>
+    <div class = "lgywm_wz">
+        <p>{dede:sql sql="select content from dede_arctype where id=24"}[field:content
+           function=cn_substr(Html2Text(@me),500)/]{/dede:sql}</p>
+    </div>
+    <div class = "angd">{dede:type typeid='25'}<a href = "list.php?tid=[field:id/]">了解更多 >> </a>{/dede:type}</div>
 </div>
 
 
 <!--底部的开始-->
 {dede:include filename="foot_m.htm"/}
 
-<div class="dbgao"></div>
+<div class = "dbgao"></div>
 </body>
 <!--焦点图js-->
-<script src="/style/js/jquery-1.9.1.min.js"></script>
-<script src="/style/js/TouchSlide.1.1.js"></script>
-<script type="text/javascript">
-TouchSlide({ 
-	slideCell:"#slides",
-	titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-	mainCell:".bd ul", 
-	effect:"leftLoop", 
-	autoPage:true,//自动分页
-	autoPlay:false //自动播放
-});
+<script src = "/style/js/jquery-1.9.1.min.js"></script>
+<script src = "/style/js/TouchSlide.1.1.js"></script>
+<script type = "text/javascript">
+    TouchSlide({
+        slideCell: "#slides",
+        titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell: ".bd ul",
+        effect: "leftLoop",
+        autoPage: true,//自动分页
+        autoPlay: false //自动播放
+    });
 </script>
 </html>

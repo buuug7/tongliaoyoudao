@@ -54,6 +54,8 @@
     margin-bottom: 30px; }
     .age_li_about .nmggs .nmggs-left {
       float: left; }
+    .age_li_about .nmggs img {
+      display: none; }
   .age_li_about .nmgds {
     padding-top: 30px; }
     .age_li_about .nmgds .nmgds-left {

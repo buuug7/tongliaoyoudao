@@ -58,6 +58,8 @@
     padding-top: 30px; }
     .age_li_about .nmgds .nmgds-left {
       float: left; }
+    .age_li_about .nmgds img {
+      display: none; }
   .age_li_about button {
     background: transparent;
     margin: 10px 20px;

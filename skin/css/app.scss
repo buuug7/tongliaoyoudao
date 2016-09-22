@@ -155,4 +155,36 @@ $base_bg: #fff;
     }
   }
 }
+
+
+// yewuzixun
+.age_li_about {
+  margin: 0 30px;
+  padding-top: 80px;
+  .nmggs {
+    margin-bottom: 30px;
+    .nmggs-left {
+      float: left;
+    }
+  }
+  .nmgds {
+    padding-top: 30px;
+    .nmgds-left {
+      float: left;
+    }
+
+  }
+
+  button {
+    background: transparent;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    font-size: 25px;
+    width: 400px;
+  }
+  button:hover{
+    background-color:#DD3904;
+    color: #ffffff;
+  }
+}
 /*YANJF end*/

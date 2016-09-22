@@ -87,6 +87,27 @@
 .footer .fotPhone dd {
   color: #ffffff; }
 
+.age_li_about {
+  margin: 0 30px;
+  padding-top: 80px; }
+  .age_li_about .nmggs {
+    margin-bottom: 30px; }
+    .age_li_about .nmggs .nmggs-left {
+      float: left; }
+  .age_li_about .nmgds {
+    padding-top: 30px; }
+    .age_li_about .nmgds .nmgds-left {
+      float: left; }
+  .age_li_about button {
+    background: transparent;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    font-size: 25px;
+    width: 400px; }
+  .age_li_about button:hover {
+    background-color: #DD3904;
+    color: #ffffff; }
+
 /*YANJF end*/
 
 /*# sourceMappingURL=app.css.map */

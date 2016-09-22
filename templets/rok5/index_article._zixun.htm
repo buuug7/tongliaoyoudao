@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <title>{dede:field name='typename'/}_{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:field name='keywords'/}"/>
+    <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+    <link href="/skin/css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="/skin/css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="/skin/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/skin/css/temp.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="/skin/css/app.css">
+
+    <script src="/skin/js/jquery-1.4.1.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/skin/js/common.js"></script>
+
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<!--content:start-->
+<div class="topadcs" style="background: url('/skin/images/aboutbanner.png') no-repeat scroll center;
+        height:300px"></div>
+<div class="content">
+    {dede:include filename="left.htm"/}
+    <div class="right">
+        <div class="pro_curmbs"><span>当前位置：</span>{dede:field name='position'/}</div>
+        <div class="righttop"></div>
+        <div class="right_main">
+            <div class="agent_con">
+                <div class="age_li_about"> {dede:field.content/}
+
+                    <div class="nmggs">
+                        <div class="nmggs-left">
+                            <img src="skin/images/1.jpg">
+                        </div>
+                        <button type="button"
+                                onclick="window.location.href='http://www.nm-n-tax.gov.cn/nmgsj/xxgk/zcfg/list_1.shtml'"
+                                class="btn btn-default navbar-btn">内蒙古国家税务总局
+                        </button>
+                    </div>
+                    <div class="nmgds">
+                        <div class="nmgds-left">
+                            <img src="skin/images/2.jpg">
+                        </div>
+                        <button type="button" onclick="window.location.href='http://www.nmds.gov.cn/xwfb/tzgg/'"
+                                class="btn btn-default navbar-btn">内蒙古地方税务总局
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <div class="age_con_key">
+
+                </div>
+            </div>
+        </div>
+        <div class="rightbot"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--content:end-->
+
+
+<!--footer:start-->
+{dede:include filename="footer.htm"/}
+<!--footer:end-->
+</body>
+</html>

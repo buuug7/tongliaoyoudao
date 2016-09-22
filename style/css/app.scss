@@ -1,3 +1,62 @@
 .lnav ul li {
   width: 50% !important;
 }
+
+/* shou ji mu ban  ye wu fan wei  */
+.wrap-b7-yw {
+  padding: 35px 20px 10px 20px;
+  .b7-yw {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .b7-img {
+      text-align: center;
+      i {
+        font-size: 60px;
+      }
+    }
+    h4 {
+      text-align: center;
+      margin: 10px 0;
+      font-size: 15px;
+    }
+
+    p {
+      text-indent: 0;
+      text-align: center;
+    }
+
+  }
+
+}
+
+.heading {
+  text-align: center;
+  h2 {
+    padding: 0 12px;
+    position: relative;
+    display: inline-block;
+    line-height: 34px !important;
+    &:before, &:after {
+      content: ' ';
+      width: 70%;
+      position: absolute;
+      border-width: 1px;
+      border-color: #bbb;
+    }
+    &:before {
+      right: 100%;
+    }
+    &:after {
+      left: 100%;
+    }
+  }
+
+}
+
+.heading-v1 h2:before, .heading-v1 h2:after {
+  top: 15px;
+  height: 6px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+

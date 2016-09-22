@@ -99,12 +99,12 @@
     .age_li_about .nmgds .nmgds-left {
       float: left; }
   .age_li_about button {
-    background: transparent;
     margin: 10px 20px;
     padding: 15px 20px;
     font-size: 25px;
     width: 400px;
-    cursor: pointer !important; }
+    cursor: pointer !important;
+    background: #41d2f1; }
   .age_li_about button:hover {
     background-color: #DD3904;
     color: #ffffff; }

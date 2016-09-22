@@ -2,15 +2,8 @@
   width: 50% !important;
 }
 
-table{
-  border-collapse: collapse;
-  border-spacing: 0;
-  font-size: inherit;
-
-}
-td{
-  padding:0;
-  margin: 0;
+table tr.firstRow td{
+  vertical-align: top !important;
 }
 /* shou ji mu ban  ye wu fan wei  */
 .wrap-b7-yw {

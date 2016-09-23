@@ -4,6 +4,5 @@
 $(document).ready(function () {
   $('.bannerBox .cur').hide();
   $(".b7-in").slide({});
-
   //new Marquee("faq", 0, 1, 306, 392, 40, 0, 1000, 22);
 });
